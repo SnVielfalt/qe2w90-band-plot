@@ -8,7 +8,7 @@ Plotting scripts for first-principles band structures computed with **Quantum ES
 - Projected density of states (PDOS) alongside band structures
 - Spin-texture visualization (Sx / Sy / Sz expectation values on the band structure)
 - Comparison plots between different pseudopotentials / SOC settings (e.g. SOC vs. without SOC)
-- Appendix - Optical activity analysis (natural optical activity from third-rank conductivity tensors)
+- Optical activity analysis via third-rank conductivity tensors (Appendix)
 
 ## Requirements
 
@@ -41,7 +41,7 @@ Tested with:
 |---|---|
 | `QE_band_pdos.ipynb` | QE band structure with projected DOS |
 | `QE_band_spin.ipynb` | QE band structure with spin-texture coloring |
-| `QE_band_vs_qe.ipynb` | Compare two QE band structures (e.g. NC vs. PAW) |
+| `QE_band_vs_qe.ipynb` | Compare two QE band structures (e.g. SOC vs. without SOC) |
 | `W90_band_vs_qe.ipynb` | Compare QE bands against Wannier90-interpolated bands |
 | `OSD.ipynb` | Natural optical activity (rotatory strength / CD) from conductivity tensor data |
 
